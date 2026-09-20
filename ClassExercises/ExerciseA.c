@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 // Constants
 #define VAT_RATE 0.15
