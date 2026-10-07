@@ -9,7 +9,7 @@ int main(void) {
     double averageSalary = 0.0;
     double highestSalary = 0.0;
     double lowestSalary = 0.0;
-    double total = 0.0;
+    double total;
 
     for (i = 0; i < NUM_EMPLOYEES; i++) {
         printf("Enter salary for employee %d: ", i + 1);
