@@ -1,17 +1,21 @@
 #include <stdio.h>
 
 // create functions
-float calculateSalary(float basic, float housing, float transport) {
+double calculateSalary(double basic, double housing, double transport) {
     return basic + housing + transport;
 }
 int main() {
     // Declare variables
-    float basicSalary, housingAllowance, transportAllowance, GrossSalary;
+    double basicSalary;
+    double housingAllowance, transportAllowance, GrossSalary;
 
     // Assign values
-    basicSalary = 15000.00;
-    housingAllowance = 3000.00;
-    transportAllowance = 2000.00;
+    printf("Enter basic salary: ");
+    scanf("%lf", &basicSalary);
+    printf("Enter housing allowance: ");
+    scanf("%lf", &housingAllowance);
+    printf("Enter transport allowance: ");
+    scanf("%lf", &transportAllowance);
 
     // Call the function
     GrossSalary = calculateSalary(basicSalary, housingAllowance, transportAllowance);

@@ -8,9 +8,12 @@ float calculateVAT(float amount) {
 
 int main() {
     // Declare variables
-    float price, vat;
+    float price;
+   
     //Call the functions
-    price = 1000.00; 
+    printf("Enter the price: ");
+    scanf("%f", &price);
+
     float vat = calculateVAT(price);
     printf("Price: $%.2f \n VAT: $%.2f", price, vat);
 

@@ -2,10 +2,10 @@
 
 #define NUM_EMPLOYEES 50
 
-int main(void) {
+int main() {
     double salary[NUM_EMPLOYEES];
     int i;
-    double totalSalary;
+    double totalSalary = 0.0;
     double averageSalary = 0.0;
     double highestSalary = 0.0;
     double lowestSalary = 0.0;
